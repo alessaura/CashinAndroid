@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="34dp"
+    android:layout_marginRight="16dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/menusuperior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/hamburgerIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/hamburgermenu" />
+
+        <FrameLayout
+            android:layout_width="233dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/retangulo_redondo">
+
+            <!-- LinearLayout horizontal para os elementos internos -->
+            <LinearLayout
+                android:layout_width="246dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <!-- Ícone de moeda -->
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/moeda" />
+
+                <!-- Espaçamento de 32dp entre os elementos -->
+                <Space
+                    android:layout_width="8dp"
+                    android:layout_height="32dp" />
+
+                <!-- Texto do saldo -->
+
+                <!-- Espaçamento de 32dp entre os elementos -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="R$ 1.000,00"
+                    android:textSize="12sp" />
+
+                <Space
+                    android:layout_width="8dp"
+                    android:layout_height="32dp" />
+
+                <!-- Texto "cashins" -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="cashins"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <!-- Linha à esquerda com 2px de espessura e cor A500B9 -->
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:background="#A500B9" />
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/notificationIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/notificacaoicone" />
+
+        <!-- Ícone de perfil -->
+        <ImageView
+            android:id="@+id/profileIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/perfilicone" />
+
+        <!-- Ícone de seta -->
+        <ImageView
+            android:id="@+id/arrowIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:src="@drawable/setaicone" />
+    </LinearLayout>

@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="292.64dp"
+    android:layout_height="829.27dp"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center">
+
+        <!-- Adicione o logo "cashin-logo-cor" aqui com a altura desejada -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:src="@drawable/cashinlogo1" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnInicio"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:text="Início"
+        android:textColor="#202020"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnExtrato"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:text="Extrato"
+        android:textColor="#202020"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/btnTransferencias"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button_transferencias"
+        android:text="Transferências"
+        android:textColor="#202020"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/btnBoleto"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button_boleto"
+        android:text="Pagar boleto"
+        android:textColor="#202020"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/btnQRCode"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:text="Pagar com QR Code"
+        android:textColor="#202020"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnCVirtual"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:text="Cartão Virtual"
+        android:textColor="#202020"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnTCashin"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:text="Transferencias Cashin"
+        android:textColor="#202020"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnCupons"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:text="Cupons"
+        android:textColor="#202020"
+        android:textSize="16sp" />
+    <Button
+        android:id="@+id/btnCFisico"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:text="Cartão Físico"
+        android:textColor="#202020"
+        android:textSize="16sp" />
+
+</LinearLayout>
+

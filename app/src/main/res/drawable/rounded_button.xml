@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Borda esquerda mais grossa -->
+    <item android:left="20dp">
+        <shape>
+            <solid android:color="#20A500B9" /> <!-- Cor de fundo -->
+            <corners android:radius="8dp" /> <!-- Raio do canto -->
+        </shape>
+    </item>
+
+    <!-- Contorno -->
+    <item>
+        <shape>
+            <solid android:color="#00000000" /> <!-- Cor de fundo transparente -->
+            <stroke
+                android:width="2dp" <!-- Largura da linha de contorno -->
+                android:color="#A500B9" /> <!-- Cor do contorno -->
+            <corners android:radius="8dp" /> <!-- Raio do canto -->
+        </shape>
+    </item>
+
+</layer-list>

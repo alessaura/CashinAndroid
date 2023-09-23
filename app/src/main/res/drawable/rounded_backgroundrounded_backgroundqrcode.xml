@@ -1,0 +1,5 @@
+<!-- rounded_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="8dp" /> <!-- Define o raio dos cantos arredondados (aqui, 8dp) -->
+    <solid android:color="#2BD988" /> <!-- Define a cor de preenchimento do retângulo -->
+</shape>
